@@ -116,3 +116,16 @@ The system uses **natural help-intent detection** instead of a fixed wake-word m
 - User-specific adaptation
 - Optional confirmation flow for medium-confidence cases
 
+# Voice Emergency MVP
+
+Minimal end-to-end prototype for a voice-based emergency request system.
+
+## Pipeline
+
+Audio File → VAD → Hebrew ASR → Help Intent Detection → Emergency Trigger
+
+## Run
+
+```bash
+pip install -r requirements.txt
+python main.py sample.wav
