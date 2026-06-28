@@ -129,3 +129,25 @@ Audio File → VAD → Hebrew ASR → Help Intent Detection → Emergency Trigge
 ```bash
 pip install -r requirements.txt
 python main.py sample.wav
+🚀 How to run
+git init
+git add .
+git commit -m "Initial voice emergency MVP"
+pip install -r requirements.txt
+python main.py sample.wav
+🔧 What this is (important)
+
+This is NOT production logic.
+
+It gives you:
+
+full working pipeline
+Hebrew ASR integration
+plug-in points for ML later
+🧠 What you upgrade later
+
+Replace:
+
+intent.py → ML model (Hebrew fine-tuned)
+vad.py → real audio VAD
+threshold logic → probabilistic scoring system
