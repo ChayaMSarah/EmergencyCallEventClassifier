@@ -11,7 +11,13 @@ The goal is to reliably detect user requests for assistance while remaining effi
 ## System Architecture
 
 The system is composed of three sequential stages:
-Audio Input → Audio Activity Filter → Help Intent Detection → Emergency Action Handler
+Audio Input
+→ 
+Audio Activity Filter
+→ 
+Help Intent Detection
+→ 
+Emergency Action Handler
 
 ---
 
